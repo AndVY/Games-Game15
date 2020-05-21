@@ -1,1 +1,1 @@
-# Game15 based on JavaRush GameEngine
+# First learning projects
