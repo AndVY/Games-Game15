@@ -27,12 +27,12 @@ public class Game15 extends Game {
     private void createGame() {
         gameList = new ArrayList<>(sortedList);
         Collections.shuffle(gameList);
-        zeroPos = gameList.indexOf(0);
         if (isWinlessPosition()) {
             int temp = gameList.get(0);
             gameList.set(0, gameList.get(1));
             gameList.set(1, temp);
         }
+        zeroPos = gameList.indexOf(0);
         drawScene();
     }
 
